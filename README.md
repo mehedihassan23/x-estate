@@ -1,8 +1,11 @@
-# React + Vite
+# About X Estate
+This is a Real Estate company that made building according to client's choice. An Engineer, Manager, Supervisor and lot of labour working here. If you wanna best output at a cheap rate X Estate will be best option for you.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<u> Development Process: </u>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ol>
+ <li> Install React in our project </li>
+ <li> Install nessasary Node Package Manager like React icon, Aos etc. </li>
+ <li> Host image on cloudinary and use the cloudinary image link to our project. </li>
+ <li> Design the Navigation menu and the Home section</li>
+</ol>
