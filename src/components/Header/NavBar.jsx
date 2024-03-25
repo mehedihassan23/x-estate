@@ -5,7 +5,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <div style={{position: "relative"}}>
+    
        <nav className='navBar'>
        
        <div className="logo">
@@ -22,7 +22,7 @@ const NavBar = () => {
        </div>
 
      </nav>
-    </div>
+   
   )
 }
 

@@ -8,4 +8,6 @@ This is a Real Estate company that made building according to client's choice. A
  <li> Install nessasary Node Package Manager like React icon, Aos etc. </li>
  <li> Host image on cloudinary and use the cloudinary image link to our project. </li>
  <li> Design the Navigation menu and the Home section</li>
+ <li> Design Explore Us section </li>
+ 
 </ol>

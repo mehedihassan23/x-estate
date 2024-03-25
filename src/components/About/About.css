@@ -1,0 +1,86 @@
+.about-section .about-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.container .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.container .about .about-image{
+    flex: 1;
+    overflow: hidden;
+    margin-right: 40px;
+}
+.container .about .about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.container .about .about-image:hover img{
+    transform: scale(1.2);
+}
+.container .about .about-content{
+   flex: 1;
+}
+.read-more{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; 
+    transition: 0.5s;
+}
+.read-more:hover{
+    background-color: transparent;
+    color: black;
+}
+
+/*Responsive area*/
+@media only screen and (max-width: 768px) {   
+    .about-section .about-heading{
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 1.8rem 0;
+    }
+    .container .about .about-image{
+        margin-right: 30px;
+    }
+    .container .about .about-content{
+        padding-top: 2rem;
+    }
+    .read-more{ 
+        padding: 8px 15px;
+        border-radius: 8px;
+        font-size: .9rem;       
+    }
+   
+}
+
+/*Extra Small Device*/
+@media only screen and (max-width: 600px) {
+    .container .about{
+        flex-direction: column;
+    }
+    .about-section .about-heading{
+        text-align: center;
+        font-size: 2.4rem;
+        padding: 1.7rem 0;
+    }
+    .read-more{ 
+        padding: 7px 13px;
+        border-radius: 7px;
+        font-size: .8rem;       
+    }
+}
+  

@@ -1,7 +1,8 @@
 .navBar{
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +37,7 @@
 @media only screen and (max-width: 768px) {
     .navBar{      
         padding: 0.5rem 3rem;
+        width: 85vw;
     }
     .logoIcon{
         font-size: 2.5rem;
@@ -54,7 +56,7 @@
 @media only screen and (max-width: 600px) {
     .navBar{
         padding: 0.5rem 1rem;
-         
+        width: 90vw;     
     }
     .logoIcon{
         font-size: 1rem;
