@@ -1,0 +1,79 @@
+.navBar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+.logoIcon{
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: white;
+}
+.Xlogo{
+    font-size: 2.5rem;
+    color: crimson;
+}
+.link a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+    transition: all 0.5s;
+}
+.link a:hover{   
+    color: crimson;
+}
+.link a.lastLink{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+/*Responsive area*/
+@media only screen and (max-width: 768px) {
+    .navBar{      
+        padding: 0.5rem 3rem;
+    }
+    .logoIcon{
+        font-size: 2.5rem;
+        margin-right: 0.8rem;      
+    }
+    .Xlogo{
+        font-size: 2rem;       
+    }
+    .link a{
+        font-size: 1rem;   
+        margin-right: 0.7rem;        
+    }   
+}
+
+
+
+/*Extra Small Device*/
+@media only screen and (max-width: 600px) {
+    .navBar{
+        padding: 0.5rem 1rem;
+         
+    }
+    .logoIcon{
+        font-size: 1rem;
+        margin-right: 0.7rem;     
+    }
+    .Xlogo{
+        font-size: 1rem;        
+    }
+    .link a{
+        font-size: 1rem;   
+        margin-right: 0.7rem;       
+    }
+}
+  
