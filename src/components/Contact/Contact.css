@@ -6,7 +6,7 @@
 }
 .contact .contact-heading{
     font-size: 3rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
     text-align: center;
 }
 .contact .contact-container{
@@ -15,7 +15,6 @@
     align-items: center;
     padding: 5rem;
 }
-.contact .contact-container .address{}
 .contact .contact-container .address-box{
     display: flex;
 }
@@ -73,15 +72,36 @@
 .btn:hover{
     color: black;
 }
-
-
-
-
-
-
-
-
-
+.contact .social-media{
+    text-align: center;
+    position: relative;
+}
+.contact .social-icon{
+    text-align: center;
+    padding: 1rem 0;    
+}
+.contact .social-icon span{
+     font-size: 3rem;
+     padding: 1rem;
+     color: crimson;
+     cursor: pointer;
+}
+.contact .social-media::after{
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 37%;
+    background-color: brown;
+    height: 2px;
+    width: 17rem;
+}
+.copyright{
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
 
 
 /*Responsive area*/
@@ -89,47 +109,51 @@
     
     .contact .contact-heading{
         font-size: 2rem;
-        padding-top: 6rem;
-       
+        padding-top: 6rem;    
     }
-    .contact .contact-container{
-       
+    .contact .contact-container{    
         padding: 4rem;
     }
    
     .contact .contact-container .address-box .text{
         padding-left: 1.3rem;
     }
-    
+
     .btn{
-        padding: .9rem 1.8rem;
-        
+        padding: .9rem 1.8rem;       
     }
      
+    .contact .social-icon{     
+        padding: .9rem 0;     
+    }
+    .contact .social-icon span{
+         font-size: 2.5rem;
+         padding: .9rem;
+          
+    }
+    .contact .social-media::after{
+        left: 30%;  
+        width: 17rem;
+    }   
+    .copyright{
+        font-size: 1.1rem; 
+        padding: .9rem 0;
+    }
    
 }
 
 /*Extra Small Device*/
 @media only screen and (max-width: 600px) {
-    .contact{
-        
-        clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
-        
+    .contact{    
+        clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 100%, 0 0);    
     }
     .contact .contact-heading{
         font-size: 1.8rem;
-        padding-top: 4rem;
-        text-align: center;
+        padding-top: 7rem;
     }
     .contact .contact-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-         
+        flex-direction: column;    
     }
- 
-   
     .contact .contact-container .address-box .text{
         padding-left: 1rem;
     }
@@ -138,8 +162,20 @@
         padding: .8rem 1.7rem;
         
     }
-    
-    
+    .contact .social-icon{    
+        padding: .8rem 0;     
+    }
+    .contact .social-icon span{
+         font-size: 2rem;
+         padding: .8rem;         
+    }
+    .contact .social-media::after{
+        left: 25%;        
+    }
+    .copyright{
+        font-size: 1rem;  
+        padding: .8rem 0;
+    }  
     
 }
   

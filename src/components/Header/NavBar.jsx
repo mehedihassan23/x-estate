@@ -8,12 +8,12 @@ const NavBar = () => {
     
        <nav className='navBar'>
        
-       <div className="logo">
-       <FaHome className='logoIcon' />
+       <div className="logo" data-aos="fade-right">
+        <FaHome className='logoIcon' />
         <span className='Xlogo'>X-Estate</span>
        </div>
 
-       <div className="link">
+       <div className="link" data-aos="fade-left">
           <a href="">Home</a>
           <a href="">About</a>
           <a href="">Project</a>

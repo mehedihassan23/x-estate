@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaHome, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 import "./Contact.css"
 
@@ -10,7 +10,7 @@ const Contact = () => {
         
          <div className="contact-container">
            
-            <div className="address">
+            <div className="address"  data-aos="fade-up">
                 
                  <div className="address-box">
                     <div className="icon-box">
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
 
 
-              <div className="contact-form">
+              <div className="contact-form"  data-aos="fade-up">
                   <form >
                       <div className="contact-box">
                           <input type="text" required />
@@ -63,6 +63,14 @@ const Contact = () => {
                   </form>
               </div>
          </div>
+
+         <h2 className="social-media" data-aos="fade-up-left">Connect on Social Media</h2>
+         <p className="social-icon" data-aos="fade-up-right">
+            <span><FaFacebook /></span>
+            <span><FaTwitter /></span>
+            <span><FaWhatsapp /></span>
+         </p>
+         <h3 className="copyright">All Right Reserved by <span style={{color:"crimson"}}>x-eastate</span></h3>
      </section>
   )
 }

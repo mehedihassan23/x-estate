@@ -11,5 +11,14 @@ This is a Real Estate company that made building according to client's choice. A
  <li> Design Explore Us section </li>
  <li> Design Project section </li>
  <li> Design Contact Us section </li>
+ <li> Design Footer section </li>
  
+</ol>
+
+<u> Uses Package: </u>
+<ol>
+<li> Vite </li>
+<li> React </li>
+<li> Animation on Scrolling </li>
+<li> React Icons </li>
 </ol>
