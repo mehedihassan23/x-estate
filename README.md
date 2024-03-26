@@ -9,5 +9,7 @@ This is a Real Estate company that made building according to client's choice. A
  <li> Host image on cloudinary and use the cloudinary image link to our project. </li>
  <li> Design the Navigation menu and the Home section</li>
  <li> Design Explore Us section </li>
+ <li> Design Project section </li>
+ <li> Design Contact Us section </li>
  
 </ol>
